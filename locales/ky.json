@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat Ключ Генератору",
+    "generateButton": "Ключтарды түзүү",
+    "generatedKeysTitle": "Түзүлгөн ключтар:",
+    "footerButton": "Crypto World тарабынан иштелип чыккан",
+    "copyKeyButton": "Ключту көчүрүү",
+    "keyCopied": "Ключ көчүрүлдү",
+    "copyAllKeysButton": "Бардык ключтарды көчүрүү",
+    "allKeysCopied": "Бардык ключтар көчүрүлдү",
+    "selectKeyCountLabel": "Түзүү үчүн ключтардын санын тандаңыз:",
+    "selectKeyCountLabel_selected": "Тандалган ключтардын саны: ",
+    "selectGameLabel": "Ключ түзүү үчүн оюнду тандаңыз:"
+}

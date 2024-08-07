@@ -1,0 +1,13 @@
+{
+    "title": "Генератори Калидҳои Hamster Kombat",
+    "generateButton": "Генератсияи калидҳо",
+    "generatedKeysTitle": "Калидҳои генератсияшуда:",
+    "footerButton": "Таҳияшуда аз ҷониби Crypto World",
+    "copyKeyButton": "Калидро нусхабардорӣ кунед",
+    "keyCopied": "Калид нусхабардорӣ шуд",
+    "copyAllKeysButton": "Ҳама калидҳоро нусхабардорӣ кунед",
+    "allKeysCopied": "Ҳама калидҳо нусхабардорӣ шуданд",
+    "selectKeyCountLabel": "Миқдори калидҳои генератсияшавандаро интихоб кунед:",
+    "selectKeyCountLabel_selected": "Миқдори интихобшудаи калидҳо: ",
+    "selectGameLabel": "Бозиро барои генератсия кардани калид интихоб кунед:"
+}

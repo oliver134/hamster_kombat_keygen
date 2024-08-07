@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat কী জেনারেটর",
+    "generateButton": "কী জেনারেট করুন",
+    "generatedKeysTitle": "জেনারেট করা কী:",
+    "footerButton": "Crypto World দ্বারা তৈরি",
+    "copyKeyButton": "কী কপি করুন",
+    "keyCopied": "কী কপি করা হয়েছে",
+    "copyAllKeysButton": "সব কী কপি করুন",
+    "allKeysCopied": "সব কী কপি করা হয়েছে",
+    "selectKeyCountLabel": "জেনারেট করার জন্য কী সংখ্যা নির্বাচন করুন:",
+    "selectKeyCountLabel_selected": "জেনারেট করার জন্য নির্বাচিত কী সংখ্যা: ",
+    "selectGameLabel": "কী জেনারেট করার জন্য গেম নির্বাচন করুন:"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat გასაღებების გენერატორი",
+    "generateButton": "გასაღებების გენერირება",
+    "generatedKeysTitle": "გენერირებული გასაღებები:",
+    "footerButton": "დამზადებულია Crypto World-ის მიერ",
+    "copyKeyButton": "გასაღების კოპირება",
+    "keyCopied": "გასაღები დაკოპირდა",
+    "copyAllKeysButton": "ყველა გასაღების კოპირება",
+    "allKeysCopied": "ყველა გასაღები დაკოპირდა",
+    "selectKeyCountLabel": "გთხოვთ აირჩიოთ გასაღებების რაოდენობა:",
+    "selectKeyCountLabel_selected": "არჩეული გასაღებების რაოდენობა: ",
+    "selectGameLabel": "გთხოვთ აირჩიოთ თამაში გასაღების გენერაციისთვის:"
+}

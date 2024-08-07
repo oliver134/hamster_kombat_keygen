@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat Açar Generatoru",
+    "generateButton": "Açarları Yarat",
+    "generatedKeysTitle": "Yaradılan Açarlar:",
+    "footerButton": "Crypto World Tərəfindən Hazırlanmışdır",
+    "copyKeyButton": "Açarı Kopyala",
+    "keyCopied": "Açar kopyalandı",
+    "copyAllKeysButton": "Bütün Açarları Kopyala",
+    "allKeysCopied": "Bütün açarlar kopyalandı",
+    "selectKeyCountLabel": "Yaratmaq üçün açar sayını seçin:",
+    "selectKeyCountLabel_selected": "Yaratmaq üçün seçilmiş açar sayı: ",
+    "selectGameLabel": "Açarları yaratmaq üçün oyunu seçin:"
+}

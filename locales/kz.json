@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat Кілттер Генераторы",
+    "generateButton": "Кілттерді жасау",
+    "generatedKeysTitle": "Жасалған кілттер:",
+    "footerButton": "Crypto World әзірлеген",
+    "copyKeyButton": "Кілтті көшіру",
+    "keyCopied": "Кілт көшірілді",
+    "copyAllKeysButton": "Барлық кілттерді көшіру",
+    "allKeysCopied": "Барлық кілттер көшірілді",
+    "selectKeyCountLabel": "Жасалатын кілттер санын таңдаңыз:",
+    "selectKeyCountLabel_selected": "Жасалатын кілттер саны таңдалды: ",
+    "selectGameLabel": "Кілт жасау үшін ойынды таңдаңыз:"
+}

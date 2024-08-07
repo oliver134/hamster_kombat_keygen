@@ -1,0 +1,13 @@
+{
+    "title": "Hamster Kombat Kalitlar Generatori",
+    "generateButton": "Kalitlarni yaratish",
+    "generatedKeysTitle": "Yaratilgan kalitlar:",
+    "footerButton": "Crypto World tomonidan ishlab chiqilgan",
+    "copyKeyButton": "Kalitni nusxalash",
+    "keyCopied": "Kalit nusxalandi",
+    "copyAllKeysButton": "Barcha kalitlarni nusxalash",
+    "allKeysCopied": "Barcha kalitlar nusxalandi",
+    "selectKeyCountLabel": "Yaratiladigan kalitlar sonini tanlang:",
+    "selectKeyCountLabel_selected": "Yaratiladigan kalitlar soni tanlandi: ",
+    "selectGameLabel": "Kalit yaratish uchun o'yinni tanlang:"
+}

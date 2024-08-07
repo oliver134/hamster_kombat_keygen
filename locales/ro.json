@@ -1,0 +1,13 @@
+{
+    "title": "Generator de Chei Hamster Kombat",
+    "generateButton": "Generează chei",
+    "generatedKeysTitle": "Chei generate:",
+    "footerButton": "Dezvoltat de Crypto World",
+    "copyKeyButton": "Copiază cheia",
+    "keyCopied": "Cheia a fost copiată",
+    "copyAllKeysButton": "Copiază toate cheile",
+    "allKeysCopied": "Toate cheile au fost copiate",
+    "selectKeyCountLabel": "Selectați numărul de chei pentru generare:",
+    "selectKeyCountLabel_selected": "Numărul de chei selectat pentru generare: ",
+    "selectGameLabel": "Selectați jocul pentru generare de chei:"
+}
