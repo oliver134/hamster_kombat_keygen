@@ -5,22 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Генератор Ключей Hamster Kombat</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <script>
-        function changeGameImage() {
-            const gameSelect = document.getElementById('gameSelect');
-            const gameImage = document.getElementById('gameImage');
-            const gameImages = {
-                'default': 'img/hamster_pirate.jpg',
-		'Merge Away': 'img/merge_away.jpg',
-                'MyCloneArmy': 'img/my_clone_army.jpeg',
-                'ChainCube2048': 'img/chain_cube.jpeg',
-                'TrainMiner': 'img/train_miner.jpeg',
-                'BikeRide3D': 'img/bikeride.jpeg'
-            };
-            gameImage.src = gameImages[gameSelect.value];
-        }
-    </script>
+
 </head>
 <body>
     <div class="language-selector">
@@ -104,6 +89,21 @@
 		
 		 <button id="creatorGameBtn" class="button footer-button">Hamster Kombat</button>
     </div>
-
+    <script src="script.js"></script>
+    <script>
+        function changeGameImage() {
+            const gameSelect = document.getElementById('gameSelect');
+            const gameImage = document.getElementById('gameImage');
+            const gameImages = {
+                'default': 'img/hamster_pirate.jpg',
+		'Merge Away': 'img/merge_away.jpg',
+                'MyCloneArmy': 'img/my_clone_army.jpeg',
+                'ChainCube2048': 'img/chain_cube.jpeg',
+                'TrainMiner': 'img/train_miner.jpeg',
+                'BikeRide3D': 'img/bikeride.jpeg'
+            };
+            gameImage.src = gameImages[gameSelect.value];
+        }
+    </script>
 </body>
 </html>
