@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Генератор Ключей Hamster Kombat</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script>
+        function changeGameImage() {
+            const gameSelect = document.getElementById('gameSelect');
+            const gameImage = document.getElementById('gameImage');
+            const gameImages = {
+                'default': 'img/hamster_pirate.jpg',
+                'MyCloneArmy': 'img/my_clone_army.jpeg',
+                'ChainCube2048': 'img/chain_cube.jpeg',
+                'TrainMiner': 'img/train_miner.jpeg',
+                'BikeRide3D': 'img/bikeride.jpeg'
+            };
+            gameImage.src = gameImages[gameSelect.value];
+        }
+    </script>
 </head>
 <body>
     <div class="language-selector">
@@ -45,6 +60,7 @@
 			 <label for="gameSelect" id="gameSelectLabel"><img src="img/game.png" style="width: 20px; height: 20px; margin-top: 1;" alt="Game Icon"> Выберите игру для генерации ключа:</label>
             <select id="gameSelect" onchange="changeGameImage()">
                 <option value="default">- - - - -</option>
+		<option value="MergeAway">Merge Away</option>
                 <option value="MyCloneArmy">My Clone Army</option>
                 <option value="ChainCube2048">Chain Cube 2048</option>
                 <option value="TrainMiner">Train Miner</option>
@@ -87,20 +103,6 @@
 		
 		 <button id="creatorGameBtn" class="button footer-button">Hamster Kombat</button>
     </div>
-    <script src="script.js"></script>
-    <script>
-        function changeGameImage() {
-            const gameSelect = document.getElementById('gameSelect');
-            const gameImage = document.getElementById('gameImage');
-            const gameImages = {
-                'default': 'img/hamster_pirate.jpg',
-                'MyCloneArmy': 'img/my_clone_army.jpeg',
-                'ChainCube2048': 'img/chain_cube.jpeg',
-                'TrainMiner': 'img/train_miner.jpeg',
-                'BikeRide3D': 'img/bikeride.jpeg'
-            };
-            gameImage.src = gameImages[gameSelect.value];
-        }
-    </script>
+
 </body>
 </html>
