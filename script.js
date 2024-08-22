@@ -174,11 +174,11 @@ document.getElementById('startBtn').addEventListener('click', async () => {
             startBtn.disabled = false;
             return null;
         }
-
-        for (let i = 0; i < 10; i++) {
-            await sleep(EVENTS_DELAY * delayRandom());
+        
+        for (let i = 0; i < currentAppConfig.attemptsNumber; i++) {
+            await sleep(currentAppConfig.eventsDelay * delayRandom());
             const hasCode = await emulateProgress(clientToken);
-            updateProgress(10 / keyCount);
+            updateProgress((100 / currentAppConfig.attemptsNumber) / keyCount);
             if (hasCode) {
                 break;
             }
