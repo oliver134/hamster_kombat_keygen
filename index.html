@@ -46,6 +46,7 @@
 			 <label for="gameSelect" id="gameSelectLabel"><img src="img/game.png" style="width: 20px; height: 20px; margin-top: 1;" alt="Game Icon"> Выберите игру для генерации ключа:</label>
             <select id="gameSelect" onchange="changeGameImage()">
                 <option value="default">- - - - -</option>
+		<option value="Polysphere">Polysphere</option> 
 		<option value="TwerkRace">Twerk Race</option>    
 		<option value="MergeAway">Merge Away</option>
                 <option value="MyCloneArmy">My Clone Army</option>
@@ -97,6 +98,7 @@
             const gameImage = document.getElementById('gameImage');
             const gameImages = {
                 'default': 'img/hamster_pirate.jpg',
+		'Polysphere': 'img/polysphere.jpg', 
                 'TwerkRace': 'img/twerk_race.jpg',    
 		'MergeAway': 'img/merge_away.jpg',
                 'MyCloneArmy': 'img/my_clone_army.jpeg',
