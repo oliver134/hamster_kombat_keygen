@@ -1,5 +1,11 @@
 const defaultLanguage = document.documentElement.getAttribute('lang')
 const gamePromoConfigs = {
+		MyCloneArmy: {
+        appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
+        promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
+        eventsDelay: 120000,
+        attemptsNumber: 11
+    },
     ChainCube2048: {
         appToken: 'd1690a07-3780-4068-810f-9b5bbf2931b2',
         promoId: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
@@ -11,6 +17,12 @@ const gamePromoConfigs = {
         promoId: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
         eventsDelay: 20000,
         attemptsNumber: 10
+    },
+	BikeRide3D: {
+        appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
+        promoId: '43e35910-c168-4634-ad4f-52fd764a843f',
+        eventsDelay: 20000,
+        attemptsNumber: 22
     },
     MergeAway: {
         appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
@@ -36,6 +48,12 @@ const gamePromoConfigs = {
         eventsDelay: 20000,
         attemptsNumber: 20
     },
+	MudRacing: {
+        appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
+        promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
+        eventsDelay: 20000,
+        attemptsNumber: 20
+    },
     CafeDash: {
         appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
         promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
@@ -53,24 +71,6 @@ const gamePromoConfigs = {
         promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
         eventsDelay: 21000,
         attemptsNumber: 23
-    },
-	    MyCloneArmy: {
-        appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
-        promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
-        eventsDelay: 120000,
-        attemptsNumber: 11
-    },
-    BikeRide3D: {
-        appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
-        promoId: '43e35910-c168-4634-ad4f-52fd764a843f',
-        eventsDelay: 20000,
-        attemptsNumber: 22
-    },
-    MudRacing: {
-        appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
-        promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
-        eventsDelay: 20000,
-        attemptsNumber: 20
     }
 };
 
